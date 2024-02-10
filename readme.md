@@ -12,6 +12,8 @@ The algorithm we created is explained (in french) in algorithme.md. Our first "n
 
 `./push-swap "[random numbers]"` to generate operations
 
+`./push-swap "[ARGS]" | ./checker "[ARGS]"` to verify that the operations sort the stack.
+
 For example :
 ```
 ./checker --generaterandom 100; ARG="$(cat random-100)";
@@ -21,4 +23,4 @@ For example :
 
 ## Project state
 
-We went above what was expected from the basic subject.
+As explained in algorithme.md, some more optimizations can still be made to improve our algorithm, but we are satisfied with the solution we came up with. The algorithm implementation is quite messy. Even though all the steps look similar, we couldn't factorize those steps in a single function because of all the small details that are different between every step.
