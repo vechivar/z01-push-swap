@@ -13,9 +13,12 @@ The algorithm we created is explained (in french) in algorithme.md. Our first "n
 `./push-swap "[random numbers]"` to generate operations
 
 For example :
-
 ```
 ./checker --generaterandom 100; ARG="$(cat random-100)";
 ./push-swap "$ARG" | wc -l
 ./push-swap "$ARG" | ./checker "$ARG"
 ```
+
+## Project state
+
+We went above what was expected from the basic subject.
