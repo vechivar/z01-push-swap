@@ -14,6 +14,8 @@ The algorithm we created is explained (in french) in algorithme.md. Our first "n
 
 For example :
 
-```./checker --generaterandom 100; ARG="$(cat random-100)";
+```
+./checker --generaterandom 100; ARG="$(cat random-100)";
 ./push-swap "$ARG" | wc -l
-./push-swap "$ARG" | ./checker "$ARG"```
+./push-swap "$ARG" | ./checker "$ARG"
+```
